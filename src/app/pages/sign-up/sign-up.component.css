@@ -1,0 +1,54 @@
+.custom-register-container {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.custom-register-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-full-width {
+  width: 100%;
+}
+
+
+.mat-input-element {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.custom-button {
+  width: 100%;
+}
+
+mat-card-title {
+  margin-bottom: 20px;
+}
+
+/* Estilos para o botão "Selecionar Imagem" */
+.custom-register-container button {
+  margin-top: 10px;
+}
+
+.custom-register-container button.color-accent {
+  background-color: #007bff;
+  color: white;
+}
+
+.custom-register-container button.color-accent:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o botão "Registrar" */
+.custom-button-container {
+  margin-top: 20px;
+}
+
